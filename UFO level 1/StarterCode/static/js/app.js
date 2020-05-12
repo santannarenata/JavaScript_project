@@ -29,7 +29,7 @@ button.on("click", function() {
 
     // Select the input date
     var inputElement = d3.select("#datetime");
-    // Get the value property of the input date, city, state, shape, duration and comments
+    // Get the date value
     var inputValue = inputElement.property("value");
 
     // Filter Data with date equal to input value
